@@ -248,7 +248,7 @@ int Task_16(int size) {
 
         insert_index = max_elem(ptr_array, size);
 
-        printf("Вставляем -999 перед элемента с индексом %d\n", insert_index);
+        printf("Вставляем -999 перед элементом с индексом %d\n", insert_index);
 
         double* temp_array = insert(ptr_array, &size, insert_index, -999.0);
 
